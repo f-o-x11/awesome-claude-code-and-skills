@@ -1653,6 +1653,12 @@ Utilities and tools to enhance your Claude workflow.
   - Query databases and create/update pages and blocks via the Notion API
   - Supports a hosted remote endpoint and local stdio deployment
 
+- [f-o-x11/deed-page-skill](https://github.com/f-o-x11/deed-page-skill) ![Stars](https://img.shields.io/github/stars/f-o-x11/deed-page-skill?style=flat-square)
+  - Claude Code skill and plugin that publishes an HTML file or static folder to a permanent `https://{slug}.deed.page/` URL
+  - Uses one `curl` PUT, or the bundled remote MCP server at `https://deed.page/mcp`; no account or API key
+  - Returns an owner token for later updates, version rollback, and deletion
+  - Same skill also ships manifests for Codex, Cursor, Gemini CLI, and Grok Bot; MIT licensed
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
