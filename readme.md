@@ -1687,6 +1687,12 @@ Utilities and tools to enhance your Claude workflow.
   - JSON-first requests, async task polling, and terminal/CI-friendly workflows
   - Apache-2.0 licensed; install with `git clone https://github.com/runapi-ai/cli-skill ~/.claude/skills/runapi-cli`
 
+- [cooper-email/cooper-email](https://github.com/cooper-email/cooper-email) ![Stars](https://img.shields.io/github/stars/cooper-email/cooper-email?style=flat-square)
+  - Agent skills and a Claude Code plugin that give Claude its own email inbox (`username@cooperemail.com`)
+  - Send, read, search, and wait for replies or verification codes through a hosted MCP server or HTTP API
+  - The agent creates its inbox and API key with one request; free tier, no card
+  - MIT licensed; install with `npx skills add cooper-email/cooper-email` or `/plugin marketplace add cooper-email/cooper-email`
+
 ### CLI Configuration Tools
 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) ![Stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=flat-square)
